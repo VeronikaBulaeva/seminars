@@ -25,17 +25,3 @@ npm i
 ```sh
 npx json-server seminars.json 
 ```
-
-### Создание билда
-
-Чтобы выполнить development сборку и запустить сервер для разработки, выполните команду:
-
-```sh
-npm run dev
-```
-
-Чтобы выполнить production сборку, выполните команду:
-
-```sh
-npm run build
-```
