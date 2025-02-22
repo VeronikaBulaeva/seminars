@@ -1,0 +1,100 @@
+.box {
+    margin-top: 16px;
+    padding: 16px 20px;
+    border: solid 1px #8a8a8a;
+    border-radius: 5px;
+}
+
+.buttons__box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.seminar {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.seminar__text {
+    display: grid;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.flex {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.grid {
+    display: grid;
+    gap: 16px;
+}
+
+.date__block {
+    display: grid;
+    gap: 12px;
+}
+
+.date, .description {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.image {
+    height: 200px;
+    align-self: end;
+}
+
+.modal {
+    min-height: 200px;
+    display: grid;
+    gap: 16px;
+    align-items: center;
+}
+
+.modal__close {
+    justify-self: end;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.modal__text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: rgba(26, 32, 44, 1);
+}
+
+.modal__bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.button {
+    width: 100px;
+}
+
+.input {
+    height: 34px;
+    width: 280px;
+}
+
+@media screen and (max-width: 600px) {
+    .seminar {
+        display: grid;
+    }
+}

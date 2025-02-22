@@ -1,0 +1,53 @@
+.section {
+    max-width: 1400px;
+    margin-inline: auto;
+    padding-inline: 8px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.error {
+    display: grid;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    align-content: center;
+    gap: 8px;
+}
+
+.button {
+    width: 100%;
+}
+
+.modal__close {
+    justify-self: end;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.modal__text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: rgba(26, 32, 44, 1);
+    white-space: pre-line;
+    text-align: center;
+}
+
+@media screen and (max-width: 1220px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px 24px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .grid {
+        gap: 10px;
+    }
+}

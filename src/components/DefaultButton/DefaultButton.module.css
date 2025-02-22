@@ -1,0 +1,42 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    padding: 8px;
+    background-color: rgba(131, 99, 80, 0.95);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    cursor: pointer;
+
+    transition: background-color 0.5s ease-in-out;
+}
+
+.button:hover {
+    background-color: rgba(131, 99, 80, 0.84);
+}
+
+.radius8 {
+    border-radius: 8px;
+}
+
+.radius16 {
+    border-radius: 16px;
+}
+
+.radius20 {
+    border-radius: 20px;
+}
+
+.radius50 {
+    border-radius: 50%;
+    padding: 20px;
+    height: 64px;
+}
